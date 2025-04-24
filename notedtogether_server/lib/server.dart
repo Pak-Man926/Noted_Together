@@ -27,7 +27,10 @@ void run(List<String> args) async {
       return true;
     }
 
-    sendPasswordResetEmail: (Session, userInfo, )
+    sendPasswordResetEmail: (Session, userInfo, validationCode) async
+    {
+      print("")
+    }
   ));
 
   // If you are using any future calls, they need to be registered here.
