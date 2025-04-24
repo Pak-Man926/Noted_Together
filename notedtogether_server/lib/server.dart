@@ -20,7 +20,7 @@ void run(List<String> args) async {
   );
 
   auth.AuthConfig.set(auth.AuthConfig(
-    sendValidationEmail: 
+    sendValidationEmail: ()
   ));
 
   // If you are using any future calls, they need to be registered here.
