@@ -29,7 +29,9 @@ void run(List<String> args) async {
 
     sendPasswordResetEmail: (Session, userInfo, validationCode) async
     {
-      print("")
+      print("Password Reset Code: $validationCode");
+
+      return true;
     }
   ));
 
