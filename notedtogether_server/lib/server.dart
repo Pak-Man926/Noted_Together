@@ -19,7 +19,9 @@ void run(List<String> args) async {
     authenticationHandler: auth.authenticationHandler,
   );
 
-  auth.AuthConfig.set(auth.AuthConfig)
+  auth.AuthConfig.set(auth.AuthConfig(
+    
+  ));
 
   // If you are using any future calls, they need to be registered here.
   // pod.registerFutureCall(ExampleFutureCall(), 'exampleFutureCall');
