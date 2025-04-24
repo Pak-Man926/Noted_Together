@@ -22,7 +22,7 @@ void run(List<String> args) async {
   auth.AuthConfig.set(auth.AuthConfig(
     sendValidationEmail: (session, email, token) async 
     {
-      print("Email Validation Code:", $)
+      print("Email Validation Code: $")
     }
   ));
 
