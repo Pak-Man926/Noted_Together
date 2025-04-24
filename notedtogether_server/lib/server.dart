@@ -1,7 +1,7 @@
 import 'package:serverpod/serverpod.dart';
 
 import 'package:notedtogether_server/src/web/routes/root.dart';
-import "package:serverpod_auth_server/serverpod_auth_server.dart";
+import "package:serverpod_auth_server/serverpod_auth_server.dart" as auth;
 
 import 'src/generated/protocol.dart';
 import 'src/generated/endpoints.dart';
