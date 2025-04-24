@@ -23,7 +23,11 @@ void run(List<String> args) async {
     sendValidationEmail: (session, email, validationCode) async 
     {
       print("Email Validation Code: $validationCode");
+
+      return true;
     }
+
+    
   ));
 
   // If you are using any future calls, they need to be registered here.
