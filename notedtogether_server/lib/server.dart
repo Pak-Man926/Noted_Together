@@ -16,7 +16,7 @@ void run(List<String> args) async {
     args,
     Protocol(),
     Endpoints(),
-    authenticationHandler: 
+    authenticationHandler: auth.
   );
 
   // If you are using any future calls, they need to be registered here.
