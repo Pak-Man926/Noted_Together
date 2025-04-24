@@ -27,7 +27,7 @@ void run(List<String> args) async {
       return true;
     }
 
-    sendPasswordResetEmail: (Session, )
+    sendPasswordResetEmail: (Session, userInfo, )
   ));
 
   // If you are using any future calls, they need to be registered here.
