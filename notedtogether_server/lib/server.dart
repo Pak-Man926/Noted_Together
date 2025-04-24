@@ -1,7 +1,7 @@
 import 'package:serverpod/serverpod.dart';
 
 import 'package:notedtogether_server/src/web/routes/root.dart';
-import "package:"
+import "package:serverpod"
 
 import 'src/generated/protocol.dart';
 import 'src/generated/endpoints.dart';
