@@ -19,6 +19,8 @@ void run(List<String> args) async {
     authenticationHandler: auth.authenticationHandler,
   );
 
+  auth
+
   // If you are using any future calls, they need to be registered here.
   // pod.registerFutureCall(ExampleFutureCall(), 'exampleFutureCall');
 
