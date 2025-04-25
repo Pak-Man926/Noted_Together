@@ -1,3 +1,5 @@
 class: Note
 table: note
 fields:
+    text: String
+    
