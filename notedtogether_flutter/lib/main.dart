@@ -90,7 +90,7 @@ class SignInPage extends StatelessWidget
         title: const Text("Noted Together"),
       ),
       body: Center(
-        child: SignInWithEmailButton(caller: client.modules.auth) ,
+        child: SignInWithEmailButton(caller: client.modules.auth),
         )
       ); 
   }
