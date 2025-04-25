@@ -1,7 +1,7 @@
 import 'package:notedtogether_client/notedtogether_client.dart';
 import 'package:flutter/material.dart';
 import 'package:serverpod_flutter/serverpod_flutter.dart';
-import "package:serverpod_auth_shared/serverpod_auth_shared
+import "package:serverpod_auth_shared_f/serverpod_auth_shared
 
 // Sets up a singleton client object that can be used to talk to the server from
 // anywhere in our app. The client is generated from your server code.
