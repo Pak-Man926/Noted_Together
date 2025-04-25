@@ -17,4 +17,6 @@ class NotesEndpoint extends Endpoint
     }
     await Note.db.insertRow(session, note);
   }
+
+  Future<void> 
 }
