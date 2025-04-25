@@ -12,7 +12,8 @@
 import 'package:serverpod_client/serverpod_client.dart' as _i1;
 import 'example.dart' as _i2;
 import 'notes.dart' as _i3;
-import 'package:serverpod_auth_client/serverpod_auth_client.dart' as _i4;
+import 'package:notedtogether_client/src/protocol/notes.dart' as _i4;
+import 'package:serverpod_auth_client/serverpod_auth_client.dart' as _i5;
 export 'example.dart';
 export 'notes.dart';
 export 'client.dart';
@@ -42,8 +43,11 @@ class Protocol extends _i1.SerializationManager {
     if (t == _i1.getType<_i3.Note?>()) {
       return (data != null ? _i3.Note.fromJson(data) : null) as T;
     }
+    if (t == List<_i4.Note>) {
+      return (data as List).map((e) => deserialize<_i4.Note>(e)).toList() as T;
+    }
     try {
-      return _i4.Protocol().deserialize<T>(data, t);
+      return _i5.Protocol().deserialize<T>(data, t);
     } on _i1.DeserializationTypeNotFoundException catch (_) {}
     return super.deserialize<T>(data, t);
   }
@@ -58,7 +62,7 @@ class Protocol extends _i1.SerializationManager {
     if (data is _i3.Note) {
       return 'Note';
     }
-    className = _i4.Protocol().getClassNameForObject(data);
+    className = _i5.Protocol().getClassNameForObject(data);
     if (className != null) {
       return 'serverpod_auth.$className';
     }
@@ -79,7 +83,7 @@ class Protocol extends _i1.SerializationManager {
     }
     if (dataClassName.startsWith('serverpod_auth.')) {
       data['className'] = dataClassName.substring(15);
-      return _i4.Protocol().deserializeByClassName(data);
+      return _i5.Protocol().deserializeByClassName(data);
     }
     return super.deserializeByClassName(data);
   }
