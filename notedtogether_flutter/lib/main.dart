@@ -72,7 +72,7 @@ class NotesPage extends StatelessWidget
   {
     return Scaffold(
       appBar: AppBar(
-        title: const Text()
+        title: const Text("Noted Together")
       )
     );
   }
