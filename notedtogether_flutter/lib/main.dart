@@ -89,6 +89,5 @@ class SignInPage extends StatelessWidget
         title: const Text("Sign In"),
       ),
       ) 
-      );
   }
 }
