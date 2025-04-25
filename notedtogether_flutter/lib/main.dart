@@ -74,7 +74,8 @@ class NotesPage extends StatelessWidget
       appBar: AppBar(
         title: const Text("Noted Together"),
       ),
-      body:Center(child: ,)
+      body:Center(
+        child: ,)
     );
   }
 }
