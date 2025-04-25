@@ -89,7 +89,7 @@ class SignInPage extends StatelessWidget
         title: const Text("Noted Together"),
       ),
       body: Center(
-        child: S ,
+        child: Sign ,
         )
       ); 
   }
