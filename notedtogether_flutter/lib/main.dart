@@ -64,6 +64,9 @@ class MyHomePageState extends State<MyHomePage>
   Widget build(BuildContext context)
   {
     return Switch(sessionManager.isSignedIn)
+    {
+      
+    }
   }
 }
 
