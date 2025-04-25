@@ -65,5 +65,5 @@ class MyHomePageState extends State<MyHomePage>
   }
 }
 
-class Notes
+class NotesPage extends StatelessWidget
 
