@@ -25,7 +25,7 @@ class NotesEndpoint extends Endpoint
       orderBy: (note) => note.id,
       include: Note.include(
         createdBy: UserInfo.include(),
-      )
-    )
+      ),
+    );
   }
 }
