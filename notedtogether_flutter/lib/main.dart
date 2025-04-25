@@ -60,11 +60,8 @@ class MyHomePageState extends State<MyHomePage>
     });
   }
 
-  @override
-  bool operator ==(Object other) {
-    // TODO: implement ==
-    return super == other;
-  }
+  @override 
+  
 }
 
 class NotesPage extends StatelessWidget {
