@@ -7,5 +7,5 @@ class NotesEndpoint extends Endpoint
   @override
   bool get requireLogin => true;
 
-  
+  Future<void> createNote
 }
