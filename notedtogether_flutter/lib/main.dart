@@ -18,7 +18,8 @@ var client = Client(
   final sessionManager = SessionManager(caller: client.modules.auth);
 
 void main() async{
-  W
+  WidgetsFlutterBinding.ensureInitialized();
+  
   runApp(const MyApp());
 }
 
