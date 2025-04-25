@@ -15,6 +15,6 @@ class NotesEndpoint extends Endpoint
     {
       throw FormatException("User Mismatch!");
     }
-    await
+    await Note.db
   }
 }
