@@ -18,5 +18,5 @@ class NotesEndpoint extends Endpoint
     await Note.db.insertRow(session, note);
   }
 
-  Future<List<Note>> getNotes
+  Future<List<Note>> getAllNotes
 }
