@@ -67,7 +67,7 @@ class MyHomePageState extends State<MyHomePage>
     {
       true => NotesPage(),
       false => SignInPage(),
-    }
+    };
   }
 }
 
