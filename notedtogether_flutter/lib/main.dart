@@ -55,7 +55,7 @@ class MyHomePageState extends State<MyHomePage>
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      
+      body: Center
     );
   }
 }
