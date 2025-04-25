@@ -22,7 +22,8 @@ class NotesEndpoint extends Endpoint
   {
     var notes = await Note.db.find(
       session,
-      orderBy: (note) => noteId
+      orderBy: (note) => note.id,
+      
     )
   }
 }
