@@ -31,5 +31,8 @@ class NotesEndpoint extends Endpoint
     return notes;
   }
 
-  Future<void> deleteNote(Session session, )
+  Future<void> deleteNote(Session session, Note note) async
+  {
+    
+  }
 }
