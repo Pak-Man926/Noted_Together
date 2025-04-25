@@ -2,4 +2,4 @@ class: Note
 table: note
 fields:
     text: String
-    createdBy: module:
+    createdBy: module:auth:
