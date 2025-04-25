@@ -66,7 +66,7 @@ class MyHomePageState extends State<MyHomePage>
     return Switch(sessionManager.isSignedIn)
     {
       true => NotesPage(),
-      false => SignInPage();,
+      false => SignInPage(),
     }
   }
 }
