@@ -27,5 +27,9 @@ class NotesEndpoint extends Endpoint
         createdBy: UserInfo.include(),
       ),
     );
+
+    return notes;
   }
+
+  
 }
