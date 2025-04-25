@@ -63,7 +63,7 @@ class MyHomePageState extends State<MyHomePage>
   @override 
   Widget build(BuildContext context)
   {
-    return Switch(sessionManager.isSignedIn)
+    return switch(sessionManager.isSignedIn)
     {
       true => NotesPage(),
       false => SignInPage(),
