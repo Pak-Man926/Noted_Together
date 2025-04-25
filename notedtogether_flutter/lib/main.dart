@@ -56,7 +56,10 @@ class MyHomePageState extends State<MyHomePage>
         title: Text(widget.title),
       ),
       body: const Center(
-        child: 
+        child: Text(
+          'Hello, world!',
+          style: TextStyle(fontSize: 24),
+        ),
       ),
     );
   }
