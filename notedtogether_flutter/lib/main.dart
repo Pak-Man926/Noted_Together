@@ -80,7 +80,7 @@ class NotesPage extends StatelessWidget
           style: TextStyle(fontSize: 24),
         ),
         ) ,
-        )
+        );
   }
 }
 
