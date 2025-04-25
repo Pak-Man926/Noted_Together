@@ -81,7 +81,6 @@ class NotesPage extends StatelessWidget
         ),
         ) ,
         )
-    );
   }
 }
 
