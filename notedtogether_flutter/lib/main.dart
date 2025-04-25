@@ -19,7 +19,7 @@ var client = Client(
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  
+  sessionManager.initialize();
   runApp(const MyApp());
 }
 
