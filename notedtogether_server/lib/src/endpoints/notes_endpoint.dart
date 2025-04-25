@@ -24,7 +24,7 @@ class NotesEndpoint extends Endpoint
       session,
       orderBy: (note) => note.id,
       include: Note.include(
-        createdBy: 
+        createdBy: UserInfo.
       )
     )
   }
