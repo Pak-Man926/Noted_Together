@@ -75,7 +75,8 @@ class NotesPage extends StatelessWidget
         title: const Text("Noted Together"),
       ),
       body:Center(
-        child: ,)
+        child: ,
+        )
     );
   }
 }
