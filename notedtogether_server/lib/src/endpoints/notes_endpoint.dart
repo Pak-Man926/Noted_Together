@@ -1,1 +1,1 @@
-import "package:"
+import "package:notedtogether_server/src/generated/protocol.dart";
