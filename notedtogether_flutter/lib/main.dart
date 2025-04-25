@@ -11,13 +11,11 @@ import "package:serverpod_auth_shared_flutter/serverpod_auth_shared_flutter.dart
 var client = Client(
   'http://$localhost:8080/',
   authenticationKeyManager: FlutterAuthenticationKeyManager(),
-  )
-   
-  ..connectivityMonitor = FlutterConnectivityMonitor();
+)..connectivityMonitor = FlutterConnectivityMonitor();
 
-  final sessionManager = SessionManager(caller: client.modules.auth);
+final sessionManager = SessionManager(caller: client.modules.auth);
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   sessionManager.initialize();
   runApp(const MyApp());
@@ -47,8 +45,7 @@ class MyHomePage extends StatefulWidget {
   MyHomePageState createState() => MyHomePageState();
 }
 
-class MyHomePageState extends State<MyHomePage> 
-{
+class MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,22 +62,19 @@ class MyHomePageState extends State<MyHomePage>
   }
 }
 
-class NotesPage extends StatelessWidget
-{
+class NotesPage extends StatelessWidget {
   @override
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Noted Together"),
       ),
-      body:Center(
+      body: Center(
         child: Text(
           "Welcome to Noted Together! ${sesssionManager.session?.userId}",
           style: TextStyle(fontSize: 24),
         ),
-        ) ,
-        );
+      ),
+    );
   }
 }
-
