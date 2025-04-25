@@ -10,6 +10,7 @@ class NotesEndpoint extends Endpoint
   Future<void> createNote(Session session, Note note) async
   {
     var authenticatedInfo = await session.authenticated;
-    
+
+    if (authenticatedInfo == )
   }
 }
