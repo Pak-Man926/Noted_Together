@@ -20,6 +20,6 @@ class NotesEndpoint extends Endpoint
 
   Future<List<Note>> getAllNotes(Session session) async
   {
-
+    
   }
 }
