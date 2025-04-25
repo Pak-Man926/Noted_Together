@@ -79,4 +79,4 @@ class NotesPage extends StatelessWidget {
   }
 }
 
-class Sign
+class SignUp
