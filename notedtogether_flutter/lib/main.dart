@@ -81,5 +81,5 @@ class NotesPage extends StatelessWidget {
 
 class SignInPage extends StatelessWidget
 {
-  
+  @override
 }
