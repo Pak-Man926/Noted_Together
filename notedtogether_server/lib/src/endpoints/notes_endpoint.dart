@@ -11,6 +11,6 @@ class NotesEndpoint extends Endpoint
   {
     var authenticatedInfo = await session.authenticated;
 
-    if (authenticatedInfo?.)
+    if (authenticatedInfo?.userId)
   }
 }
