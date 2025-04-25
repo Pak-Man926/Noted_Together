@@ -52,7 +52,8 @@ class MyHomePageState extends State<MyHomePage>
   void initState()
   {
     super.initState();
-    
+
+    sessionManager
   } 
 }
 
