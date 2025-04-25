@@ -71,7 +71,7 @@ class NotesPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Welcome to Noted Together! ${sesssionManager.signed}",
+          "Welcome to Noted Together! ${sesssionManager.signedInUser}",
           style: TextStyle(fontSize: 24),
         ),
       ),
