@@ -31,5 +31,5 @@ class NotesEndpoint extends Endpoint
     return notes;
   }
 
-  
+  Future<void> deleteNote(Session session, )
 }
