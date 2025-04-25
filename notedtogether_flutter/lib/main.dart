@@ -55,7 +55,7 @@ class MyHomePageState extends State<MyHomePage>
 
     sessionManager.addListener((){
       setState(() {
-        
+        {}
       });
     })
   } 
