@@ -86,7 +86,7 @@ class SignInPage extends StatelessWidget
   {
     return Scaffold(
       appBar:AppBar(
-        title: const Text("Sign In"),
+        title: const Text("Noted Together"),
       ),
       ); 
   }
