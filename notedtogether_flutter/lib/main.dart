@@ -49,7 +49,10 @@ class MyHomePage extends StatefulWidget {
 class MyHomePageState extends State<MyHomePage>
 {
   @override
-  void initState() 
+  void initState()
+  {
+    
+  } 
 }
 
 class NotesPage extends StatelessWidget {
