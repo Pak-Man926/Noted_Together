@@ -88,6 +88,7 @@ class SignInPage extends StatelessWidget
       appBar:AppBar(
         title: const Text("Noted Together"),
       ),
+      body: 
       ); 
   }
 }
