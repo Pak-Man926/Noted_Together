@@ -1,5 +1,6 @@
 import 'package:notedtogether_client/notedtogether_client.dart';
 import 'package:flutter/material.dart';
+import 'package:serverpod_auth_email_flutter/serverpod_auth_email_flutter.dart';
 import 'package:serverpod_flutter/serverpod_flutter.dart';
 import "package:serverpod_auth_shared_flutter/serverpod_auth_shared_flutter.dart";
 
@@ -89,7 +90,7 @@ class SignInPage extends StatelessWidget
         title: const Text("Noted Together"),
       ),
       body: Center(
-        child: Sign ,
+        child: SignInWithEmailButton(caller: caller) ,
         )
       ); 
   }
