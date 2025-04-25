@@ -68,6 +68,6 @@ class MyHomePageState extends State<MyHomePage>
 class NotesPage extends StatelessWidget
 {
   @override
-  Widget build
+  Widget build(BuildContext context)
 }
 
