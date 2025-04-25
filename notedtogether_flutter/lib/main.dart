@@ -54,7 +54,9 @@ class MyHomePageState extends State<MyHomePage>
     super.initState();
 
     sessionManager.addListener((){
-      set
+      setState(() {
+        
+      });
     })
   } 
 }
