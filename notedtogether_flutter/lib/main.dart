@@ -15,6 +15,8 @@ var client = Client(
    
   ..connectivityMonitor = FlutterConnectivityMonitor();
 
+  Final Se
+
 void main() {
   runApp(const MyApp());
 }
