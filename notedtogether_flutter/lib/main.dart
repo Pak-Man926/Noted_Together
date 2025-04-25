@@ -15,7 +15,7 @@ var client = Client(
    
   ..connectivityMonitor = FlutterConnectivityMonitor();
 
-  Final sessionManager = SessionManager()
+  Final sessionManager = SessionManager(caller: )
 
 void main() {
   runApp(const MyApp());
