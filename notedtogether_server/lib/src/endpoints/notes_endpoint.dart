@@ -22,7 +22,7 @@ class NotesEndpoint extends Endpoint
   {
     var notes = await Note.db.find(
       session,
-      
+      orderBy: 
     )
   }
 }
