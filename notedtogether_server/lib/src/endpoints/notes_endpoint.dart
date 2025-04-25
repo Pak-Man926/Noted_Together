@@ -5,5 +5,7 @@ import "package:serverpod_auth_server/module.dart";
 class NotesEndpoint extends Endpoint
 {
   @override
-  bool get 
+  bool get requireLogin => true;
+
+  
 }
