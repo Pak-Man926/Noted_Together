@@ -7,5 +7,8 @@ class NotesEndpoint extends Endpoint
   @override
   bool get requireLogin => true;
 
-  Future<void> createNote(Session session, Note note)
+  Future<void> createNote(Session session, Note note) async
+  {
+    
+  }
 }
