@@ -9,7 +9,7 @@ import "package:serverpod_auth_shared_flutter/serverpod_auth_shared_flutter.dart
 // the default port. You will need to modify this to connect to staging or
 // production servers.
 var client = Client('http://$localhost:8080/')
-  authenticationKeyManager: FlutterAuthenticationKeyManager(), 
+   
   ..connectivityMonitor = FlutterConnectivityMonitor();
 
 void main() {
