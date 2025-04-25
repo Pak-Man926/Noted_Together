@@ -80,7 +80,7 @@ class NotesPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Welcome to Noted Together! ${sesssionManager.signedInUser?.userName}",
+          "Welcome to Noted Together! ${sessionManager.signedInUser?.userName}",
           style: TextStyle(fontSize: 24),
         ),
       ),
