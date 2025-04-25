@@ -15,6 +15,6 @@ class NotesEndpoint extends Endpoint
     {
       throw FormatException("User Mismatch!");
     }
-    await Note.db.insertRow(session, row)
+    await Note.db.insertRow(session, note);
   }
 }
