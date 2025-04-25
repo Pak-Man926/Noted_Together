@@ -20,6 +20,8 @@ class NotesEndpoint extends Endpoint
 
   Future<List<Note>> getAllNotes(Session session) async
   {
-    var notes = await Note
+    var notes = await Note.db.find;
+
+    
   }
 }
