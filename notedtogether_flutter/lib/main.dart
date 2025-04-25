@@ -76,7 +76,9 @@ class NotesPage extends StatelessWidget
       ),
       body:Center(
         child: Text(
-          
+          "Welcome to Noted Together!",
+          style: TextStyle(fontSize: 24),
+        ),
         ) ,
         )
     );
