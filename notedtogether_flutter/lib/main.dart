@@ -71,7 +71,9 @@ class NotesPage extends StatelessWidget
   Widget build(BuildContext context)
   {
     return Scaffold(
-      appBar: AppBar(actions: [],)
+      appBar: AppBar(
+        
+      )
     );
   }
 }
