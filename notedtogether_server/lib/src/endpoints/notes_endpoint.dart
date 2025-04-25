@@ -13,7 +13,7 @@ class NotesEndpoint extends Endpoint
 
     if (authenticatedInfo?.userId != note.createdById)
     {
-      throw FormatException()
+      throw FormatException("User Mismatch!");
     }
   }
 }
