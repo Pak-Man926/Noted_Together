@@ -33,6 +33,6 @@ class NotesEndpoint extends Endpoint
 
   Future<void> deleteNote(Session session, Note note) async
   {
-    await Note.db.deleteRow
+    await Note.db.deleteRow(session, note);
   }
 }
