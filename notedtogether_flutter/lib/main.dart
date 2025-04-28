@@ -72,6 +72,8 @@ class MyHomePageState extends State<MyHomePage>
 }
 
 class NotesPage extends StatelessWidget {
+  const NotesPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,6 +92,8 @@ class NotesPage extends StatelessWidget {
 
 class SignInPage extends StatelessWidget
 {
+  const SignInPage({super.key});
+
   @override
   Widget build(BuildContext context)
   {
