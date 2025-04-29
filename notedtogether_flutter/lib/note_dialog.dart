@@ -63,7 +63,7 @@ class NoteDialogState extends State<NoteDialog>
                 widget.onSaved(controller.text);
                 Navigator.of(context).pop();
               },
-              child: 
+              child: const Text("Save Note"),
             )
           ]
         )
