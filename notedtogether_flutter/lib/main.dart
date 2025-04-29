@@ -83,13 +83,10 @@ class NotesPageState extends State<NotesPage>
   List<Note>? _notes;
   Exception? _connectionException;
 
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Noted Together"),
-      ),
       body: Center(
         child: Text(
           "Welcome to Noted Together! ${sessionManager.signedInUser?.userName}",
