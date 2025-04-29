@@ -189,7 +189,7 @@ void _connectionFailed(dynamic exception)
             )
           );
         })),
-        floatingActionButton: _notes == null,
+        floatingActionButton: _notes == null ? null,
     );
   }
 }
