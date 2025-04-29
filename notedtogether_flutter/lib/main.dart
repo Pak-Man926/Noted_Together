@@ -180,7 +180,8 @@ void _connectionFailed(dynamic exception)
               size: 32,
             ),
             trailing: IconButton(
-              icon: Icon(Icons.)
+              icon: Icon(Icons.delete_outline_rounded),
+              onPressed: ,
             )
           )
         }))
