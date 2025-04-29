@@ -52,7 +52,8 @@ class NoteDialogState extends State<NoteDialog>
                 maxLines: null,
                 minLines: null,
                 decoration: const InputDecoration(
-                  border: InputBorder()
+                  border: InputBorder.none,
+                  
                 )
               )
             )
