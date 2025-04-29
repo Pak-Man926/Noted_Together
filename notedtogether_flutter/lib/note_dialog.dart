@@ -50,6 +50,7 @@ class NoteDialogState extends State<NoteDialog>
                 controller: controller,
                 expands: true,
                 maxLines: null,
+                minLines: null,
                 
               )
             )
