@@ -93,7 +93,7 @@ Future<void> _loadNotes() async
 {
   try
   {
-    var notes = await.
+    var notes = await client.modules.notes
   }
 }
 
