@@ -161,7 +161,9 @@ void _connectionFailed(dynamic exception)
      appBar:AppBar(
       title: const Text("Noted Together"),
       actions: [
-        
+        IconButton(
+          onPressed: ,
+           icon: icon)
       ]
      )
     );
