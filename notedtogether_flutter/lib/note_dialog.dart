@@ -41,7 +41,9 @@ class NoteDialogState extends State<NoteDialog>
   Widget build(BuildContext context)
   {
     return Dialog(
-      
+      child: Padding(
+        
+      )
     );
   }
 }
