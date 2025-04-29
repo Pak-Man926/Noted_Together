@@ -90,7 +90,7 @@ void initState()
 }
 Future<void> _createNote(String text) async
 {
-  var note = Note;
+  var note = Note();
 }
 
 Future<void> _loadNotes() async
