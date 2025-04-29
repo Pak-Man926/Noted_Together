@@ -48,6 +48,7 @@ class NoteDialogState extends State<NoteDialog>
             Expanded(
               child: TextField(
                 controller: controller,
+                expands: true,
                 
               )
             )
