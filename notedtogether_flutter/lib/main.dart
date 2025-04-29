@@ -105,6 +105,10 @@ Future<void> _createNote(String text) async
     await client.notes.createNote(note);
     await _loadNotes();
   }
+  catch(e)
+  {
+    
+  }
 }
 
 Future<void> _loadNotes() async
