@@ -105,7 +105,10 @@ Future<void> _loadNotes() async
   }
 }
 
-void _connectionFailed
+void _connectionFailed(dynamic Exception)
+{
+  
+}
 
   @override
   Widget build(BuildContext context) {
