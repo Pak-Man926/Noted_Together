@@ -89,7 +89,10 @@ void initState()
   _loadNotes();
 }
 
-Future<void> _loadNotes() 
+Future<void> _loadNotes() async
+{
+  
+}
 
   @override
   Widget build(BuildContext context) {
