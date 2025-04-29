@@ -16,5 +16,5 @@ void showNoteDialog(
 
 class NoteDialog extends StatefulWidget
 {
-
+  
 }
