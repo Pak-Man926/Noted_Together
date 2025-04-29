@@ -51,7 +51,7 @@ class NoteDialogState extends State<NoteDialog>
                 expands: true,
                 maxLines: null,
                 minLines: null,
-                
+                decoration: 
               )
             )
           ]
