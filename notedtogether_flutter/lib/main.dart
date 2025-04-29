@@ -88,8 +88,9 @@ void initState()
   super.initState();
   _loadNotes();
 }
-Future<void> createNote() AsyncSnapshot{
-  
+Future<void> createNote() Async
+{
+
 }
 
 Future<void> _loadNotes() async
