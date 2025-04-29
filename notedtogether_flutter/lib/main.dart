@@ -176,7 +176,7 @@ void _connectionFailed(dynamic exception)
           return ListTile(
             title: Text(_notes![index].text),
             leading: CircularUserImage(
-              user: _notes![index].createdBy,
+              title: _notes![index].createdBy,
               size: 32,
             ),
           )
