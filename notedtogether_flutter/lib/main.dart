@@ -177,7 +177,7 @@ void _connectionFailed(dynamic exception)
             title: Text(_notes![index].text),
             leading: CircularUserImage(
               user: _notes![index].createdBy,
-              size: 40,
+              size: 32,
             ),
           )
         }))
