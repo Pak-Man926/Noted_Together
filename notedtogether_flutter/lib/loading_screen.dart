@@ -11,5 +11,5 @@ class LoadingScreen extends StatelessWidget
   );
 
   final Exception? exception;
-  
+  final VoidCallback onTryAgain;
 }
