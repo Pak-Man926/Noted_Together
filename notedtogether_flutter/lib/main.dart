@@ -96,8 +96,9 @@ Future<void> _loadNotes() async
     var notes = await client.modules.notes.getAllNotes();
     setState({
       _notes = notes,
-      
-    })
+    });
+
+    
   }
 }
 
