@@ -86,8 +86,10 @@ class NotesPageState extends State<NotesPage>
 void initState()
 {
   super.initState();
-  
+  _loadNotes();
 }
+
+
 
   @override
   Widget build(BuildContext context) {
