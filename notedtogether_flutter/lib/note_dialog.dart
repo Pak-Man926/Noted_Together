@@ -46,7 +46,9 @@ class NoteDialogState extends State<NoteDialog>
         child: Column(
           children: [
             Expanded(
-              child: 
+              child: TextField(
+                
+              )
             )
           ]
         )
