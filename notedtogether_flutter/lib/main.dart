@@ -167,7 +167,7 @@ void _connectionFailed(dynamic exception)
            ),
       ]
      ),
-     body: _notes == null,
+     body: _notes == null ? LoadingScreen(onTryAgain: onTryAgain)
     );
   }
 }
