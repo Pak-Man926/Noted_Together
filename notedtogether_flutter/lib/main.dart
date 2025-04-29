@@ -158,7 +158,9 @@ void _connectionFailed(dynamic exception)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     
+     appBar:AppBar(
+      
+     )
     );
   }
 }
