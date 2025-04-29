@@ -174,7 +174,7 @@ void _connectionFailed(dynamic exception)
         itemCount : _notes!.length,
         itemBuilder: ((context, index) {
           return ListTile(
-            title: Text()
+            title: Text(_notes![index].text),
           )
         }))
     );
