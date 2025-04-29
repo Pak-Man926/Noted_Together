@@ -199,7 +199,10 @@ void _connectionFailed(dynamic exception)
                 _createNote(text);
                }
                );
-          }),
+      
+       },
+          child: const Icon(Icons.add),
+          ),
     );
   }
 }
