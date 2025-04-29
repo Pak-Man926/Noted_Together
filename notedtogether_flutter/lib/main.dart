@@ -101,7 +101,7 @@ Future<void> _loadNotes() async
   }
   catch(e)
   {
-    _connectionFailed
+    _connectionFailed(e);
   }
 }
 
