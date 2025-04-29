@@ -105,7 +105,7 @@ Future<void> _loadNotes() async
   }
 }
 
-void _connectionFailed(dynamic Exception)
+void _connectionFailed(dynamic exception)
 {
   setState(()
   {
