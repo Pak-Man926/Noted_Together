@@ -179,6 +179,7 @@ void _connectionFailed(dynamic exception)
               userInfo: _notes![index].createdBy,
               size: 32,
             ),
+            trailing: 
           )
         }))
     );
