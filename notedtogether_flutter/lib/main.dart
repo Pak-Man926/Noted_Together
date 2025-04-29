@@ -107,7 +107,10 @@ Future<void> _loadNotes() async
 
 void _connectionFailed(dynamic Exception)
 {
-  
+  setState(()
+  {
+    
+  });
 }
 
   @override
