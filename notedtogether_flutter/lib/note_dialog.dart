@@ -58,7 +58,9 @@ class NoteDialogState extends State<NoteDialog>
               )
             ),
             const SizedBox(height: 16),
-            
+            ElevatedButton(
+              onPressed: 
+            )
           ]
         )
       )
