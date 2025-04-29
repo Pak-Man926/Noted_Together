@@ -14,4 +14,7 @@ void showNoteDialog(
   );
 }
 
-class NoteDialog {}
+class NoteDialog extends StatefulWidget
+{
+
+}
