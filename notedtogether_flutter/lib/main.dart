@@ -81,7 +81,7 @@ class NotesPage extends StatefulWidget {
 class NotesPageState extends State<NotesPage> 
 {
   List<Note>? _notes;
-  
+  Exception? 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
