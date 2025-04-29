@@ -188,7 +188,8 @@ void _connectionFailed(dynamic exception)
               },
             )
           );
-        }))
+        })),
+        
     );
   }
 }
