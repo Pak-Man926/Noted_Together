@@ -162,7 +162,7 @@ void _connectionFailed(dynamic exception)
       title: const Text("Noted Together"),
       actions: [
         IconButton(
-          onPressed: ,
+          onPressed: _loadNotes,
            icon: Icon(Icons.refresh_rounded)
            ),
       ]
