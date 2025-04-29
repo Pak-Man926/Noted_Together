@@ -53,7 +53,7 @@ class NoteDialogState extends State<NoteDialog>
                 minLines: null,
                 decoration: const InputDecoration(
                   border: InputBorder.none,
-                  hintText: ""
+                  hintText: "Write your note here......",
                 )
               )
             )
