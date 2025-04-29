@@ -91,7 +91,10 @@ void initState()
 
 Future<void> _loadNotes() async
 {
-  
+  try
+  {
+    
+  }
 }
 
   @override
