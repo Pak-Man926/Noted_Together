@@ -43,6 +43,9 @@ class NoteDialogState extends State<NoteDialog>
     return Dialog(
       child: Padding(
         padding: const EdgeInsets.all(16.0),
+        child: Column(
+          
+        )
       )
     );
   }
