@@ -159,7 +159,10 @@ void _connectionFailed(dynamic exception)
   Widget build(BuildContext context) {
     return Scaffold(
      appBar:AppBar(
-      title: const Text()
+      title: const Text("Noted Together"),
+      actions: [
+        
+      ]
      )
     );
   }
