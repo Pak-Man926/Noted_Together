@@ -184,6 +184,7 @@ void _connectionFailed(dynamic exception)
               onPressed: ()
               {
                 var note = _notes![index];
+                _deleteNote(note);
               },
             )
           )
