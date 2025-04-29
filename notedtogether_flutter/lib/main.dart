@@ -136,6 +136,10 @@ Future<void> _deleteNote(note) async
   try
   {
     await client.notes.deleteNote(note);
+    await _loadNotes();
+  }
+  catch(e)
+  {
     
   }
 }
