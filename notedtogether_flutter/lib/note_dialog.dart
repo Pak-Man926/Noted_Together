@@ -32,5 +32,8 @@ class NoteDialogState extends State<NoteDialog>
   final TextEditingController controller = TextEditingController();
 
   @override
-  setState()
+  void initState()
+  {
+    
+  }
 }
