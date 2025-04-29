@@ -102,7 +102,7 @@ Future<void> _createNote(String text) async
 
   try
   {
-    await client.
+    await client.notes.
   }
 }
 
