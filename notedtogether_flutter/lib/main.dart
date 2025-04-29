@@ -129,7 +129,9 @@ Future<void> _loadNotes() async
 
 Future<void> _deleteNote(note) async
 {
-  
+  setState(() {
+    
+  });
 }
 
 void _connectionFailed(dynamic exception)
