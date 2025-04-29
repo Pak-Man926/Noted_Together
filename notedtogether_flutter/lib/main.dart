@@ -163,7 +163,7 @@ void _connectionFailed(dynamic exception)
       actions: [
         IconButton(
           onPressed: ,
-           icon: Icon(Icons.re))
+           icon: Icon(Icons.refresh_rounded))
       ]
      )
     );
