@@ -82,6 +82,7 @@ class NotesPageState extends State<NotesPage>
 {
   List<Note>? _notes;
   Exception? _connectionException;
+
   
   @override
   Widget build(BuildContext context) {
