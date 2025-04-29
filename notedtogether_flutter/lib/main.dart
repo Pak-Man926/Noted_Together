@@ -85,6 +85,7 @@ class NotesPageState extends State<NotesPage>
 
 void initState()
 {
+  super.initState();
   
 }
 
