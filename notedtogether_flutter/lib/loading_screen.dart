@@ -18,7 +18,7 @@ class LoadingScreen extends StatelessWidget
   {
     if (exception != null)
     {
-      
+      return Center()
     }
   }
 }
