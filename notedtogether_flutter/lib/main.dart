@@ -175,7 +175,10 @@ void _connectionFailed(dynamic exception)
         itemBuilder: ((context, index) {
           return ListTile(
             title: Text(_notes![index].text),
-            leading: 
+            leading: CircularUserImage(
+              user: _notes![index].createdBy,
+              size: 40,
+            ),
           )
         }))
     );
