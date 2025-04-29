@@ -8,6 +8,6 @@ void showNoteDialog(
 ){
   showDialog(
     context: context,
-    builder: (context)
+    builder: (context) => 
   )
 }
