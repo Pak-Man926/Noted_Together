@@ -38,5 +38,8 @@ class NoteDialogState extends State<NoteDialog>
   }
 
   @override
-  
+  Widget build(BuildContext context)
+  {
+    
+  }
 }
