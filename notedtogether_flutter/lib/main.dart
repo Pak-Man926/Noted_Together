@@ -168,8 +168,8 @@ void _connectionFailed(dynamic exception)
       ]
      ),
      body: _notes == null ? LoadingScreen(
-      exception: _connectionException
-      onTryAgain:
+      exception: _connectionException,
+      onTryAgain:_loadNotes
       )
     );
   }
