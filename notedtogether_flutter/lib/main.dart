@@ -98,8 +98,10 @@ Future<void> _loadNotes() async
     {
       _notes = notes,
     });
-
-
+  }
+  catch(e)
+  {
+    
   }
 }
 
