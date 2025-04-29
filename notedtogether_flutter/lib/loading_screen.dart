@@ -6,7 +6,7 @@ class LoadingScreen extends StatelessWidget
     {
       this.exception,
       required this.onTryAgain,
-      
+      super.key
     }
-  )
+  );
 }
