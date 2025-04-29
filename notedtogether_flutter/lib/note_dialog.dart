@@ -13,3 +13,5 @@ void showNoteDialog(
     ),
   );
 }
+
+class NoteDialog {}
