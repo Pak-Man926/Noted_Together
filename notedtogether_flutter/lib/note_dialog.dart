@@ -30,4 +30,7 @@ class NoteDialog extends StatefulWidget
 class NoteDialogState extends State<NoteDialog>
 {
   final TextEditingController controller = TextEditingController();
+
+  @override
+  setState()
 }
