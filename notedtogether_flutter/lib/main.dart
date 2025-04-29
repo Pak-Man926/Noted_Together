@@ -140,7 +140,7 @@ Future<void> _deleteNote(note) async
   }
   catch(e)
   {
-    
+    _connectionFailed(e);
   }
 }
 
