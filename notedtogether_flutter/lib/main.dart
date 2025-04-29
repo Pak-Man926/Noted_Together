@@ -130,7 +130,7 @@ Future<void> _loadNotes() async
 Future<void> _deleteNote(note) async
 {
   setState(() {
-    
+    _notes
   });
 }
 
