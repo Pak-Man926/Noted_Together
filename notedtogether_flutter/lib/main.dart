@@ -167,7 +167,7 @@ void _connectionFailed(dynamic exception)
            ),
       ]
      ),
-     body: _notes
+     body: _notes == null,
     );
   }
 }
