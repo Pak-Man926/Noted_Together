@@ -44,7 +44,11 @@ class NoteDialogState extends State<NoteDialog>
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          
+          children: [
+            Expanded(
+              child: 
+            )
+          ]
         )
       )
     );
