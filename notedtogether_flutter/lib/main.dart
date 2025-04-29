@@ -105,7 +105,7 @@ Future<void> _loadNotes() async
   }
 }
 
-
+void _connectionFailed
 
   @override
   Widget build(BuildContext context) {
