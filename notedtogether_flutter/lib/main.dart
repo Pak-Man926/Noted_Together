@@ -127,7 +127,10 @@ Future<void> _loadNotes() async
   }
 }
 
-Future<void> 
+Future<void> _deleteNote(note) async
+{
+  
+}
 
 void _connectionFailed(dynamic exception)
 {
