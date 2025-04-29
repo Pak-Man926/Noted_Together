@@ -16,6 +16,9 @@ class LoadingScreen extends StatelessWidget
   @override
   Widget build(BuildContext context)
   {
-    if (exception )
+    if (exception != null)
+    {
+      
+    }
   }
 }
