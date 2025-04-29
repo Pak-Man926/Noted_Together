@@ -94,6 +94,11 @@ Future<void> _createNote(String text) async
     text: text,
     createdById: sessionManager.signedInUser!.id!,
   );
+
+  setState(()
+  {
+
+  });
 }
 
 Future<void> _loadNotes() async
