@@ -9,4 +9,7 @@ class LoadingScreen extends StatelessWidget
       super.key
     }
   );
+
+  final Exception? exception;
+  
 }
