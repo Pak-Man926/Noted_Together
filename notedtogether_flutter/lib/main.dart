@@ -173,7 +173,9 @@ void _connectionFailed(dynamic exception)
       ): ListView.builder(
         itemCount : _notes!.length,
         itemBuilder: ((context, index) {
-          
+          return ListTile(
+            
+          )
         }))
     );
   }
