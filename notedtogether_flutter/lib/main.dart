@@ -190,7 +190,10 @@ void _connectionFailed(dynamic exception)
           );
         })),
         floatingActionButton: _notes == null ? null: FloatingActionButton(
-          onPressed: ),
+          onPressed: ()
+          {
+            
+          }),
     );
   }
 }
