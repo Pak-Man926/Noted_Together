@@ -194,7 +194,7 @@ void _connectionFailed(dynamic exception)
           {
             showNoteDialog(
               context: context,
-               onSaved: 
+               onSaved: (text)
                )
           }),
     );
