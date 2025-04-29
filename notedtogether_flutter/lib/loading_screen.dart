@@ -18,7 +18,12 @@ class LoadingScreen extends StatelessWidget
   {
     if (exception != null)
     {
-      return Center()
+      return Center(
+        child: ElevatedButton(
+          onPressed: () {},
+          
+        )
+      );
     }
   }
 }
