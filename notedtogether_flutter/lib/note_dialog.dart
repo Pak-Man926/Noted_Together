@@ -24,10 +24,10 @@ class NoteDialog extends StatefulWidget
   final ValueChanged<String> onSaved;
 
   @override
-  State<NoteDialog> createState() => _NoteDialogState();
+  State<NoteDialog> createState() => NoteDialogState();
 }
 
-class _NoteDialogState extends State<NoteDialog>
+class NoteDialogState extends State<NoteDialog>
 {
-  
+
 }
