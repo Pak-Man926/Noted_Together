@@ -4,6 +4,7 @@ class LoadingScreen extends StatelessWidget
 {
   const LoadingScreen(
     {
+      this.exception,
       
     }
   )
