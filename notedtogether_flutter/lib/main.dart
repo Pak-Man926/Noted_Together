@@ -196,9 +196,9 @@ void _connectionFailed(dynamic exception)
               context: context,
                onSaved: (text)
                {
-                
+                _createNote(text)
                }
-               )
+               );
           }),
     );
   }
