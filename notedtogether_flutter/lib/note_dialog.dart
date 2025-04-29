@@ -29,5 +29,5 @@ class NoteDialog extends StatefulWidget
 
 class NoteDialogState extends State<NoteDialog>
 {
-  
+  final 
 }
