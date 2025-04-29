@@ -171,7 +171,7 @@ void _connectionFailed(dynamic exception)
       exception: _connectionException,
       onTryAgain:_loadNotes
       ): ListView.builder(
-        itemCount : notes
+        itemCount : _notes!.length,
         itemBuilder: itemBuilder)
     );
   }
