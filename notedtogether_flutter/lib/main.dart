@@ -97,7 +97,7 @@ Future<void> _createNote(String text) async
 
   setState(()
   {
-    _notes?.add
+    _notes?.add(note);
   });
 }
 
