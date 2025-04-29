@@ -78,7 +78,9 @@ class NotesPage extends StatefulWidget {
   NotesPageState createState() => NotesPageState();
 }
 
-class NotesPageState extends State<NotesPage> {
+class NotesPageState extends State<NotesPage> 
+{
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
