@@ -21,5 +21,5 @@ class NoteDialog extends StatefulWidget
     super.key,
   });
 
-  
+  final ValueChanged<String> onSaved;
 }
