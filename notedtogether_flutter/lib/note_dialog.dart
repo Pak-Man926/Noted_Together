@@ -10,6 +10,6 @@ void showNoteDialog(
     context: context,
     builder: (context) => NoteDialog(
       onSaved: onSaved,
-    )
-  )
+    ),
+  );
 }
