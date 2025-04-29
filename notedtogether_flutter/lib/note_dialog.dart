@@ -34,6 +34,8 @@ class NoteDialogState extends State<NoteDialog>
   @override
   void initState()
   {
-    
+    super.initState();
   }
+
+  
 }
