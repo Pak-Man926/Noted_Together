@@ -61,7 +61,9 @@ class NoteDialogState extends State<NoteDialog>
             ElevatedButton(
               onPressed: (){
                 widget.onSaved(controller.text);
-              }
+                Navigator.of(context).pop();
+              },
+              child: 
             )
           ]
         )
