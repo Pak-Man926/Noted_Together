@@ -92,7 +92,7 @@ Future<void> _createNote(String text) async
 {
   var note = Note(
     text: text,
-    createdById: sessionManager.signedInUser!.Id!,
+    createdById: sessionManager.signedInUser!.id!,
   );
 }
 
