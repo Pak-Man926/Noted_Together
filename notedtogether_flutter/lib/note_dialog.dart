@@ -56,7 +56,8 @@ class NoteDialogState extends State<NoteDialog>
                   hintText: "Write your note here......",
                 )
               )
-            )
+            ),
+            
           ]
         )
       )
