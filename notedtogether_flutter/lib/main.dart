@@ -187,7 +187,7 @@ void _connectionFailed(dynamic exception)
                 _deleteNote(note);
               },
             )
-          )
+          );
         }))
     );
   }
