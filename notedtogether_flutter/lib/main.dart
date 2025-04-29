@@ -107,7 +107,7 @@ Future<void> _createNote(String text) async
   }
   catch(e)
   {
-    
+    _connectionFailed(e);
   }
 }
 
