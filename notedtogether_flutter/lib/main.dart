@@ -109,7 +109,8 @@ void _connectionFailed(dynamic Exception)
 {
   setState(()
   {
-    
+    _notes = null;
+    _connectionException = Exception;
   });
 }
 
