@@ -8,6 +8,8 @@ void showNoteDialog(
 ){
   showDialog(
     context: context,
-    builder: (context) => NoteDialog
+    builder: (context) => NoteDialog(
+      onSaved: onSaved,
+    )
   )
 }
