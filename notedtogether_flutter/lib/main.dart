@@ -99,6 +99,11 @@ Future<void> _createNote(String text) async
   {
     _notes?.add(note);
   });
+
+  try
+  {
+    
+  }
 }
 
 Future<void> _loadNotes() async
