@@ -170,7 +170,9 @@ void _connectionFailed(dynamic exception)
      body: _notes == null ? LoadingScreen(
       exception: _connectionException,
       onTryAgain:_loadNotes
-      ): ListView.builder(itemBuilder: itemBuilder)
+      ): ListView.builder(
+        itemCount : notes
+        itemBuilder: itemBuilder)
     );
   }
 }
