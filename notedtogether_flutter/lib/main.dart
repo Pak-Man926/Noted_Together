@@ -189,7 +189,7 @@ void _connectionFailed(dynamic exception)
             )
           );
         })),
-        
+        floatingActionButton: ,
     );
   }
 }
