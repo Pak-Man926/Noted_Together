@@ -183,7 +183,7 @@ void _connectionFailed(dynamic exception)
               icon: Icon(Icons.delete_outline_rounded),
               onPressed: ()
               {
-                var note = _notes!
+                var note = _notes![index];
               },
             )
           )
