@@ -26,3 +26,8 @@ class NoteDialog extends StatefulWidget
   @override
   State<NoteDialog> createState() => _NoteDialogState();
 }
+
+class _NoteDialogState extends State<NoteDialog>
+{
+  
+}
