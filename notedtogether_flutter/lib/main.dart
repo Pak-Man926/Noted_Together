@@ -158,12 +158,7 @@ void _connectionFailed(dynamic exception)
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          "Welcome to Noted Together! ${sessionManager.signedInUser?.userName}",
-          style: TextStyle(fontSize: 24),
-        ),
-      ),
+     
     );
   }
 }
