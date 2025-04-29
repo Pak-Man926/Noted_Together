@@ -133,7 +133,10 @@ Future<void> _deleteNote(note) async
     _notes!.remove(note);
   });
 
-  
+  try
+  {
+    
+  }
 }
 
 void _connectionFailed(dynamic exception)
