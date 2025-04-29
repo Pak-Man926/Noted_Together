@@ -7,6 +7,7 @@ void showNoteDialog(
   }
 ){
   showDialog(
+    context: context,
     
   )
 }
