@@ -20,7 +20,7 @@ class LoadingScreen extends StatelessWidget
     {
       return Center(
         child: ElevatedButton(
-          onPressed: 
+          onPressed: onTryAgain,
           child: const Text("Try Again"),
         )
       );
