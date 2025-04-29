@@ -16,5 +16,10 @@ void showNoteDialog(
 
 class NoteDialog extends StatefulWidget
 {
+  const NoteDialog({
+    required this.onSaved,
+    super.key,
+  });
+
   
 }
