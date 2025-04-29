@@ -192,7 +192,7 @@ void _connectionFailed(dynamic exception)
         floatingActionButton: _notes == null ? null: FloatingActionButton(
           onPressed: ()
           {
-            
+            showNoteDialog(context: context, onSaved: onSaved)
           }),
     );
   }
