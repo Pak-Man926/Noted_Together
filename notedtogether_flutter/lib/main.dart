@@ -85,7 +85,8 @@ class NotesPageState extends State<NotesPage>
   List<Note>? _notes;
   Exception? _connectionException;
 
-void initState()
+@override
+  void initState()
 {
   super.initState();
   _loadNotes();
