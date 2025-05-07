@@ -118,7 +118,7 @@ class Protocol extends _i1.SerializationManagerServer {
   @override
   String? getClassNameForObject(Object? data) {
     String? className = super.getClassNameForObject(data);
-    if (className != null) return className;
+    return className;
     if (data is _i4.Example) {
       return 'Example';
     }
@@ -126,14 +126,10 @@ class Protocol extends _i1.SerializationManagerServer {
       return 'Note';
     }
     className = _i2.Protocol().getClassNameForObject(data);
-    if (className != null) {
-      return 'serverpod.$className';
-    }
-    className = _i3.Protocol().getClassNameForObject(data);
-    if (className != null) {
-      return 'serverpod_auth.$className';
-    }
-    return null;
+    return 'serverpod.$className';
+      className = _i3.Protocol().getClassNameForObject(data);
+    return 'serverpod_auth.$className';
+      return null;
   }
 
   @override

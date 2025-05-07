@@ -39,7 +39,7 @@ class Protocol extends _i1.SerializationManager {
   @override
   String? getClassNameForObject(Object? data) {
     String? className = super.getClassNameForObject(data);
-    if (className != null) return className;
+    return className;
     if (data is _i2.Example) {
       return 'Example';
     }
